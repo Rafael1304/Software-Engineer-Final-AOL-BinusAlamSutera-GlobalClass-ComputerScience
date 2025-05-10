@@ -1,0 +1,30 @@
+## 🗂️ Project Structure
+project-root/
+│
+├── backend/ # FastAPI backend
+│ ├── main.py # API endpoints
+│ └── requirements.txt # Backend dependencies
+│
+├── frontend/ # React + Vite frontend
+│ ├── index.html
+│ ├── package.json
+│ ├── vite.config.js
+│ └── src/
+│ ├── App.jsx
+│ ├── components/
+│ │ ├── Chatbot.jsx
+│ │ ├── FileUploader.jsx
+│ │ ├── ShareResult.jsx
+│ │ ├── EmailSender.jsx
+│ │ ├── SettingsPanel.jsx
+│ │ └── i18n.js
+│ └── index.css
+
+## 🗂️ Email.js setup
+emailjs.send(
+  'your_service_id',
+  'your_template_id',
+  templateParams,
+  'your_public_key'
+)
+
