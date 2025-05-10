@@ -18,28 +18,6 @@ An interactive web application for uploading CSV datasets, detecting anomalies u
 - 🧠 Auto-generated summary reports
 - 🔁 Reset and re-analyze with ease
 
-## 🗂️ Project Structure
-project-root/
-│
-├── backend/ # FastAPI backend
-│ ├── main.py # API endpoints
-│ └── requirements.txt # Backend dependencies
-│
-├── frontend/ # React + Vite frontend
-│ ├── index.html
-│ ├── package.json
-│ ├── vite.config.js
-│ └── src/
-│ ├── App.jsx
-│ ├── components/
-│ │ ├── Chatbot.jsx
-│ │ ├── FileUploader.jsx
-│ │ ├── ShareResult.jsx
-│ │ ├── EmailSender.jsx
-│ │ ├── SettingsPanel.jsx
-│ │ └── i18n.js
-│ └── index.css
-
 ## ✅ Prerequisites
 
 - [Node.js](https://nodejs.org/) (v16 or newer)
