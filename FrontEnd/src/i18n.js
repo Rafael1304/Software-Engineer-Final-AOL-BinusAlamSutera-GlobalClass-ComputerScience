@@ -15,7 +15,7 @@ const resources = {
       uploading: "Uploading...",
       upload_success: "File analyzed successfully!",
       upload_fail: "Failed to analyze file.",
-      chatbot_intro: "Hi there! Do you want to analyze your data?",
+      chatbot_intro: "Hi there! Do you want to analyze your data?, use keywords like summary, yes, report, and analyze!",
       chatbot_yes: "Great! You can upload your file below.",
       chatbot_no: "Okay, let me know when you're ready!",
       chatbot_summary_prefix: "Summary",
